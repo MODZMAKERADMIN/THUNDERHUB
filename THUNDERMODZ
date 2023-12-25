@@ -1,0 +1,785 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("THUNDERMODZ | More Updates Come Soon Beta.", "Sentinel")
+
+local Tab = Window:NewTab("Blox fruit")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("HOHO HUB", "Hacks 1", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+Section:NewButton("Azure V2", "Hacks 2", function()
+    getgenv().Team = "Pirates"
+getgenv().FixCrash = false
+getgenv().FixCrash2 = false
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+end)
+
+Section:NewButton("APPLE", "Hacks 3", function()
+    _G.Ver = "1.3"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/AppleHub/main/LoaderBF"))()
+end)
+
+Section:NewButton("VECTOR", "Hacks 4", function()
+    _G.Mode = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+end)
+
+Section:NewButton("MAKORI", "Hacks 5", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/NewHubX.txt"))()
+end)
+
+Section:NewButton("FAIFAO", "Hacks 6", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+end)
+
+Section:NewButton("SPECIALIZED", "Hacks 7", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/specilaizes/Special/main/SpecialHub'))()
+end)
+
+Section:NewButton("ZEN", "Hacks 8", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/main/Loader", true))()
+end)
+
+Section:NewButton("BOUNTY", "Hacks 9", function()
+    getgenv().Config = {
+    ["Team"] = "Pirates",
+    ["Webhook"] = {
+        ["Enable"] = false,
+        ["Url"] = ""
+    },
+    ["Skip"] = {
+        ["V4"] = true,
+        ["Fruit"] = {
+            "Leopard-Leopard",
+            "Venom-Venom",
+            "Dough-Dough",
+            "Portal-Portal"
+        }
+    },
+    ["Chat"] = {
+        ["Enable"] = false,
+        ["Content"] = {"Hello me use MTriet Hub Auto Bounty"}
+    },
+    ["Misc"] = {
+        ["Hide If Low Health"] = true,
+        ["Hide Health"] = {4000,5000},
+        ["Lock Camera"] = true,
+        ["FPS Boost"] = false,
+        ["White Screen"] = false,
+        ["Bypass TP"] = true,
+        ["Spam All Skill On V4"] = true,
+        ["Gun Method"] = false
+    },
+    ["Weapons"] = {
+        ["Melee"] = {
+            ["Enable"] = true,
+            ["Delay"] = 2.5,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+                ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["V"] = {["Enable"] = false, ["HoldTime"] = 0}
+            }
+        },
+        ["Blox Fruit"] = {
+            ["Enable"] = true,
+            ["Delay"] = 3,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["V"] = {["Enable"] = true, ["HoldTime"] = 2},
+                ["F"] = {["Enable"] = false, ["HoldTime"] = 0}
+            }
+        },
+        ["Sword"] = {
+            ["Enable"] = true,
+            ["Delay"] = 1.5,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 1},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0}
+            }
+        },
+        ["Gun"] = {
+            ["Enable"] = true,
+            ["Delay"] = 1.2,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0}
+            }
+        }
+    }
+}
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Hunt/main/AutoBountyV2.lua"))()
+end)
+
+Section:NewButton("SPEED NEW", "Hacks 10", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/BloxFruit_V2_Beta_SpeedHubX.lua"))()
+end)
+
+Section:NewButton("EGO", "Hacks 11", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/EgoLoaderMain", true))()
+end)
+
+Section:NewButton("FOD", "Hacks 12", function()
+    getgenv().Config = {
+    ["StartFarmChest"] = true,
+    ["Team"] = "Marines",
+    ["TimeReset"] = 5, -- No Edit
+    ["White Screen"] = false,
+    ["Stop The God's Chalice"] = true,
+    ["Stop The Fist of Darkness"] = true,
+    ["HopServer"] = {
+        ["Enable"] = true,
+        ["BypassServer"] = true,
+        ["Region"] = "Singapore"
+    },
+    ["Server Discord"] = "https://discord.gg/mFzWdBUn45"
+}
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/Chest-Farm.lua"))()
+end)
+
+Section:NewButton("GOBLIN", "Hacks 13", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GoblinKun009/Script/main/GoblinLoader'))()
+end)
+
+Section:NewButton("ANNIE V1", "Hacks 14", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))()
+end)
+
+Section:NewButton("MADOX", "Hacks 15", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", true))()
+end)
+
+Section:NewButton("MTRIET", "Hacks 16", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+end)
+
+Section:NewButton("COKKA", "Hacks 17", function()
+    loadstring(game:HttpGet"https://codeberg.org/CokkaHub/Loadstring/raw/branch/main/CokkaHub.lua")()
+end)
+
+Section:NewButton("ANNIE V2", "Hacks 18", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+end)
+
+Section:NewButton("HIRIMI X", "Hacks 19", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Hirimii/X-Version/main/LoaderX.lua"))()
+end)
+
+Section:NewButton("REDz", "Hacks 20", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+end)
+
+Section:NewButton("MUKURO", "Hacks 21", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()
+end)
+
+Section:NewButton("RAITO NEW", "Hacks 22", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+end)
+
+Section:NewButton("FRUIT FINDER", "Hacks 23", function()
+    ServerHopTimer = 10
+TeleportSafe = true
+Team = "Marine"
+Webhook = "Your Webhook Here.."
+_G.Version="Fruit Farm"loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+end)
+
+Section:NewButton("TSUO", "Hacks 24", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+end)
+
+Section:NewButton("SPEED", "Hacks 25", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end)
+
+Section:NewButton("NIGHT", "Hacks 26", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NIGHTHUBONTOP/Main/main/NightHub.lua"))()
+end)
+
+Section:NewButton("DRAGON", "Hacks 27", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Dragon-Hub/main/Script-Execute.lua"))()
+end)
+
+Section:NewButton("COKKA", "Hacks 28", function()
+    loadstring(game:HttpGet"https://codeberg.org/CokkaHub/Loadstring/raw/branch/main/CokkaHub.lua")()
+end)
+
+Section:NewButton("FAOFAI V2", "Hacks 29", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+end)
+
+Section:NewButton("HIRIMI HYPER", "Hacks 30", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Hirimii/HirimiHub/main/LoaderScript.lua"))()
+-- Link Get Key : https://bit.ly/49nOAxS
+end)
+
+Section:NewButton("MASTER", "Hacks 31", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/onepicesenpai/onepicesenpai/main/onichanokaka'))()
+end)
+
+Section:NewButton("RELZ", "Hacks 32", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/reicann/a08jx4/main/as8p2fx.script")()
+end)
+
+Section:NewButton("WOLF", "Hacks 33", function()
+    loadstring(game:HttpGet('https://link.trwxz.com/LS-Wolf-Hub'))()
+end)
+
+Section:NewButton("ZEE", "Hacks 34", function()
+    loadstring(game:HttpGet("https://link.trwxz.com/LS-Zee-Hub-VIP"))()
+end)
+
+Section:NewButton("BT", "Hacks 35", function()
+    loadstring(game:HttpGet('https://btteam.net/scripts-auth/', true))()
+-- Link Get Key : https://bit.ly/3QpcMYh
+end)
+
+Section:NewButton("BANANA OLD", "Hacks 36", function()
+    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "6d685511bae1ded5213be7ab"
+getgenv().OldBanana = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+-- Link Get Key : https://banana-hub.xyz/thekey
+end)
+
+Section:NewButton("DOMADIC", "Hacks 37", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+end)
+
+Section:NewButton("BANANA", "Hacks 38", function()
+    getgenv().Key = "b07b37f6e6b216c8c283f185"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+-- Link Get Key : https://banana-hub.xyz/thekey
+end)
+
+Section:NewButton("THUNDER Z", "Hacks 39", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/Loader/AllGame.lua"))()
+end)
+
+Section:NewButton("ROUGH SEA", "Hacks 40", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+-- Link Get Key : https://bit.ly/3EKuSOG
+end)
+
+Section:NewButton("WORK LEVEL 2550", "Hacks 41", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()
+end)
+
+Section:NewButton("GRAPE", "Hacks 42", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Grape-Hub/main/Grape%20Hub%20V2.1"))()
+end)
+
+Section:NewButton("RIPPER V3", "Hacks 43", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hajibeza/RIPPERMAIN/main/RIPPER-V3-NEWEST'))();
+end)
+
+Section:NewButton("SNOW", "Hacks 44", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ZPSXHUB/Hub/main/SnowHub-BloxFruit'))()
+end)
+
+Section:NewButton("0 300 in 5 minutes", "Hacks 45", function()
+    _G.Mode = "English" --[Thai] --[English]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MB*PC.lua"))()
+-- Discord Dev : https://discord.gg/tPUP52HF7h
+end)
+
+Section:NewButton("SEPUH", "Hacks 46", function()
+    loadstring(game:HttpGet("https://isnahamzahpastebin.tech/sepuh/puh_007.lua"))()
+end)
+
+Section:NewButton("FIRE FROST", "Hacks 47", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ScriptBloxOfficial/Script/main/Frost%20Fire'))()
+end)
+
+Section:NewButton("TALK", "Hacks 48", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Domadicoof/Domadicoof/c9f17c5f7d7149abb2686c566b3576b8e04c0605/Talk%20HubBeta.lua'))()
+end)
+
+Section:NewButton("MAMA", "Hacks 49", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MAMAhub1/Mmahub/main/README.md"))()
+end)
+
+Section:NewButton("AUTO RAID", "Hacks 50", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/RaidGuiBloxFruitOP"))()
+end)
+
+local Section = Tab:NewSection("Update soon...")
+
+local Tab = Window:NewTab("Weird Strict dad")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("PRETTY OP SCRIPT", "Hacks 1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfinityMercury/Scripts/main/WeirdStrictDad/loader.lua",true))()
+end)
+
+Section:NewButton("Idk what to title", "Hacks 2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfinityMercury/Scripts/main/WeirdStrictDad/loader.lua",true))()
+end)
+
+local Section = Tab:NewSection("Update soon...")
+
+local Tab = Window:NewTab("Build A Boat For Treasure")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("WalkSpeed, Inf Jump, Fly 2023", "Hacks 1", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Sr2nf07q"))()
+end)
+
+Section:NewButton("Auto Farm Gold, Auto Farm Gold Blocks, Not Tweenservice Script 2023", "Hacks 2", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xwZSbuka"))()
+end)
+
+Section:NewButton("Auto Farm Fast 2023", "Hacks 3", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+Section:NewButton("Fps Boost & WalkSpeed 2023", "Hacks 4", function()
+    loadstring(game:HttpGet("https://gitlab.com/vugiakhiem2106/Universal/-/raw/main/ScriptLoader.lua"))()
+end)
+
+Section:NewButton("Auto Build & Auto Farm Gold", "Hacks 5", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSBuild A Boat For Treasure/main/MSHUB_Loader.lua"),true))()
+end)
+
+local Section = Tab:NewSection("Update soon...")
+
+local Tab = Window:NewTab("Break in Story")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("SCRIPT 1", "Hacks 1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nikita365/Break-In-Story-/main/Break%20In%20Story%20Hub"))()
+end)
+
+Section:NewButton("SCRIPT 2", "Hacks 2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/boomcacas/SigmaY/main/BreakIn"))()
+end)
+
+Section:NewButton("SCRIPT 3", "Hacks 3", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/MHx8q6xP'),true))()
+end)
+
+Section:NewButton("SCRIPT 4", "Hacks 4", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
+end)
+
+Section:NewButton("SCRIPT 5", "Hacks 5", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+
+Section:NewButton("SCRIPT 6", "Hacks 6", function()
+    local ScreenGui = Instance.new("ScreenGui") ----- enjoy it!
+local main = Instance.new("Frame")
+local BreakIn = Instance.new("TextLabel")
+local opGui = Instance.new("TextButton")
+local police = Instance.new("TextButton")
+local Throw = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local OpenButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+main.Position = UDim2.new(0.444747597, 0, 0.350253791, 0)
+main.Size = UDim2.new(0, 136, 0, 165)
+main.Visible = false
+main.Draggable = true
+
+BreakIn.Name = "BreakIn"
+BreakIn.Parent = main
+BreakIn.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+BreakIn.Position = UDim2.new(-0.235294119, 0, -0.0545454547, 0)
+BreakIn.Size = UDim2.new(0, 200, 0, 33)
+BreakIn.Font = Enum.Font.SourceSans
+BreakIn.Text = "Break In (Story)"
+BreakIn.TextColor3 = Color3.fromRGB(112, 112, 112)
+BreakIn.TextSize = 14.000
+
+opGui.Name = "opGui"
+opGui.Parent = main
+opGui.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+opGui.Position = UDim2.new(0.213235289, 0, 0.25454545, 0)
+opGui.Size = UDim2.new(0, 77, 0, 17)
+opGui.Font = Enum.Font.SourceSans
+opGui.Text = "OpGui"
+opGui.TextColor3 = Color3.fromRGB(113, 113, 113)
+opGui.TextSize = 14.000
+opGui.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Wg8pEW3Z", true))()
+end)
+
+police.Name = "police"
+police.Parent = main
+police.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+police.Position = UDim2.new(0.161764711, 0, 0.454545468, 0)
+police.Size = UDim2.new(0, 93, 0, 15)
+police.Font = Enum.Font.SourceSans
+police.Text = "Police (in spawn)"
+police.TextColor3 = Color3.fromRGB(0, 0, 0)
+police.TextSize = 14.000
+police.MouseButton1Down:connect(function()
+	local A_1 = "Gun"
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole
+Event:FireServer(A_1, A_2)
+end)
+
+Throw.Name = "Throw"
+Throw.Parent = main
+Throw.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Throw.BorderColor3 = Color3.fromRGB(65, 65, 65)
+Throw.Position = UDim2.new(0.213235289, 0, 0.684848487, 0)
+Throw.Size = UDim2.new(0, 77, 0, 19)
+Throw.Font = Enum.Font.SourceSans
+Throw.Text = "throw away"
+Throw.TextColor3 = Color3.fromRGB(0, 0, 0)
+Throw.TextSize = 14.000
+Throw.MouseButton1Down:connect(function()
+	while wait(1) do
+        for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
+            if v:IsA("Tool") then
+                v.CanBeDropped = true
+            end
+        end
+    end
+end)
+
+Close.Name = "Close"
+Close.Parent = main
+Close.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(1, 0, -0.0545454547, 0)
+Close.Size = UDim2.new(0, 32, 0, 33)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+Close.MouseButton1Down:connect(function()
+OpenButton.Visible = true
+main.Visible = false
+end)
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = ScreenGui
+OpenButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenButton.Position = UDim2.new(0.925940275, 0, 0.886497438, 0)
+OpenButton.Size = UDim2.new(0, 54, 0, 19)
+OpenButton.Font = Enum.Font.SourceSans
+OpenButton.Text = "Open"
+OpenButton.TextColor3 = Color3.fromRGB(121, 121, 121)
+OpenButton.TextSize = 14.000
+OpenButton.MouseButton1Down:connect(function()
+main.Visible = true
+OpenButton.Visible = false
+end)
+
+--full version come soon
+end)
+
+local Section = Tab:NewSection("Update soon...")
+
+local Tab = Window:NewTab("Bedwars")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("BEDWARS", "Hacks 1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Section:NewButton("BEDWARS 2", "Hacks 2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+local Section = Tab:NewSection("Update soon...")
+
+local Tab = Window:NewTab("Jailbreak")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("Jail break 1", "Hacks 1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/free"))()
+end)
+
+Section:NewButton("Jail break 2", "Hacks 2", function()
+    loadstring(game:HttpGet('https://scripts.luawl.com/14245/JailbreakerFree.lua'))()
+end)
+
+Section:NewButton("Jail break 3", "Hacks 3", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/free"))()
+end)
+
+Section:NewButton("Jail break 4", "Hacks 4", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+end)
+
+Section:NewButton("VYNIXIUS", "Hacks 5", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+end)
+
+Section:NewButton("SUBHUB", "Hacks 6", function()
+    pcall(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kw6m/Subbers-scripts/main/jailbreak", true))()
+end)
+end)
+
+Section:NewButton("DIAMOND", "Hacks 7", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/JailBreak"))()
+end)
+
+Section:NewButton("PINK", "Hacks 8", function()
+    loadstring(game:HttpGet('https://scripts.luawl.com/14245/JailbreakerFree.lua'))()
+end)
+
+Section:NewButton("FARM", "Hacks 9", function()
+    loadstring(game:HttpGet('https://scripts.luawl.com/14245/JailbreakerFree.lua'))()
+end)
+
+local Section = Tab:NewSection("Update soon...")
+
+local Tab = Window:NewTab("Blade ball")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("NEVA", "Hacks 1", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end)
+
+Section:NewButton("BALLI", "Hacks 2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/BALLIHUBV2"))()
+end)
+
+Section:NewButton("BEDOL", "Hacks 3", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+end)
+
+Section:NewButton("BLUE", "Hacks 4", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Crazzy-Hub/main/Blade%20Ball"))()
+end)
+
+Section:NewButton("ALCHEMY", "Hacks 5", function()
+    v=1;loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
+-- Link Get Key : https://bit.ly/45H5Hrs
+end)
+
+Section:NewButton("SYMPHONY", "Hacks 6", function()
+    local a,b,c,d=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,"https://itsjidy.github.io/SymphonyHub/Loader.html"c(a and b, "Your Executor does not support.")a(b({Url=d,Method="GET"}).Body)()
+-- Link Get Key : https://bit.ly/45Ban1Z
+end)
+
+Section:NewButton("WINNABLE", "Hacks 7", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnablez/Winnable/main/Loader")){}
+end)
+
+Section:NewButton("NOVA", "Hacks 8", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/ProjectNova/loader.lua",true))()
+end)
+
+Section:NewButton("AZURE", "Hacks 9", function()
+    getgenv().Mode = "AI" -- "AimOnly","Rage", "AI" 
+getgenv().ForceWin = false --100% Win Need Telekenis 
+getgenv().AutoUseSkill = true
+getgenv().BaseVelocity = 0 --Base On The Server, IDK Where To Get it It Should Be 4-6 Or 0 (Old Server) 
+getgenv().BasePredictVelocity = 3.4 -- Should be From 3-3.5 Work Good With 3 If Old Server 
+getgenv().VisualizePath = true -- false // 
+getgenv().AutoSpamClickDetect = true -- Spam Click If Near Other Player 
+getgenv().CloseRangeAttack = true -- Just Move Forward To The Last Character 
+getgenv().AutoGetVelocity = false -- Need The Ball To Be Stopped 
+getgenv().AutoClickKeyBind = "X" -- Need The Ball To Be Stopped 
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fd07660d92cb26891e9acfab9f0c6ba4.lua"))()
+end)
+
+Section:NewButton("LH", "Hacks 10", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Baller/main/Ball%20Blade"))()
+-- Link Get Key : https://bit.ly/46dT0W1
+end)
+
+Section:NewButton("YON V3", "Hacks 11", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/af9f139fff0acc2f44c8bc84da83624a.lua"))()
+-- Link Get Key : https://bit.ly/48HCKOG
+end)
+
+Section:NewButton("YON", "Hacks 12", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8555f27454c952fb960ba00a4cd3f8f6.lua"))()
+end)
+
+Section:NewButton("RED", "Hacks 13", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+end)
+
+Section:NewButton("BLACK", "Hacks 14", function()
+    loadstring(game:HttpGet("https://github.com/SadlekAski/Scripts/raw/main/Blade%20Ball/Equip%20any%20ability.lua"))()
+end)
+
+Section:NewButton("LIGHTUX", "Hacks 15", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/BladeBallLightux"))()
+-- Link Get Key : https://bit.ly/3RvEQvc
+end)
+
+Section:NewButton("R3TH", "Hacks 16", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/BladeBallR3TH"))()
+end)
+
+Section:NewButton("ALIENWARE", "Hacks 17", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/romkich09/keySystem/main/mainKey'),true))()
+-- Link Get Key : https://bit.ly/451p0eA
+end)
+
+Section:NewButton("AUTOPARRY", "Hacks 18", function()
+    getgenv().god = true
+while getgenv().god and task.wait() do
+    for _,ball in next, workspace.Balls:GetChildren() do
+        if ball then
+            if game:GetService("Players").LocalPlayer.Character and game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+                game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position, ball.Position)
+                if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Highlight") then
+                    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = ball.CFrame * CFrame.new(0, 0, (ball.Velocity).Magnitude * -0.5)
+                    game:GetService("ReplicatedStorage").Remotes.ParryButtonPress:Fire()
+                end
+            end
+        end
+    end
+end
+end)
+
+Section:NewButton("BLOX", "Hacks 19", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/malicious-dev/RobloxScripting/main/bladeball.lua'),true))()
+end)
+
+local Section = Tab:NewSection("Update soon...")
+
+local Tab = Window:NewTab("SLAP BATTLE")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("EXIST", "Hacks 1", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
+end)
+
+Section:NewButton("RED", "Hacks 2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomScriptr3/gggggggg/main/lolez.txt", true))()
+end)
+
+Section:NewButton("WHOPPER", "Hacks 3", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/qwertyui-cool/uhh-yes/main/whopper.lua"))()
+end)
+
+Section:NewButton("BLOX", "Hacks 4", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
+end)
+
+local Section = Tab:NewSection("Update soon...")
+
+local Tab = Window:NewTab("ABLITY WARS")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("Script 1", "Hacks 1", function()
+    loadstring(game:HttpGet("https://paste.ee/r/Wo5Kj"))()
+end)
+
+Section:NewButton("Script 2", "Hacks 2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/AbilityWars.lua"))()
+end)
+
+Section:NewButton("Script 3", "Hacks 3", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CrapTheKid/Ability-Wars-Script/main/Ability%20Wars", true))()
+end)
+
+Section:NewButton("Script 4", "Hacks 4", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CrapTheKid/Ability-Wars-Script/main/Ability%20Wars", true))()
+end)
+
+Section:NewButton("Script 5", "Hacks 5", function()
+    loadstring(game:HttpGet("https://package.idenlua.tk/Scripts/AbbWars.lua"))()
+end)
+
+Section:NewButton("Script 6", "Hacks 6", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua")))();
+end)
+
+Section:NewButton("Script 7", "Hacks 7", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/ability_wars.lua')))()
+end)
+
+local Section = Tab:NewSection("Update soon...")
+
+local Tab = Window:NewTab("DOORS")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("BLACK", "Hacks 1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Doors"))()
+end)
+
+Section:NewButton("MSDOORS", "Hacks 2", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+end)
+
+Section:NewButton("WD", "Hacks 3", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+end)
+
+Section:NewButton("GREEN", "Hacks 4", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
+end)
+
+Section:NewButton("BLUE", "Hacks 5", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/loadstring.lua"))()
+end)
+
+Section:NewButton("VYNIXIUS", "Hacks 6", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+end)
+
+Section:NewButton("OMINOUS", "Hacks 7", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
+end)
+
+Section:NewButton("NEVERLOSE", "Hacks 8", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/neverlose.xyz/main/Doors.lua"))()
+end)
+
+Section:NewButton("DARKRAI", "Hacks 9", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+Section:NewButton("AUTO COMPLETE GAME", "Hacks 10", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/D4rk9690/My-scripts/main/Doors%20gui", true))()
+end)
+
+Section:NewButton("INSTANT SKIP ROOM", "Hacks 11", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/InstantSkipRoom"))()
+end)
+
+Section:NewButton("BEST", "Hacks 12", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+end)
+
+Section:NewButton("CORRUPT", "Hacks 13", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Corrupt"))()
+end)
+
+Section:NewButton("LINORIA", "Hacks 14", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Linoria"))()
+end)
+
+local Section = Tab:NewSection("Update soon...")
+
+local Tab = Window:NewTab("Under development")
+
+local Section = Tab:NewSection("Scripts")
